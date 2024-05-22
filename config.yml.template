@@ -1,0 +1,12 @@
+# Configuration file for Cloudflare DNS update script
+
+BEARER_TOKEN: ""  # https://dash.cloudflare.com/profile/api-tokens
+ZONE_ID: ""
+
+# Options
+# See: https://developers.cloudflare.com/api/operations/dns-records-for-a-zone-update-dns-record
+#
+A_RECORD_ID: ""
+A_RECORD_NAME: "dynamic"
+A_RECORD_TTL: 1  # 1 = automatic, [60, 86400]
+A_RECORD_PROXIED: false
